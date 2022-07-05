@@ -1,0 +1,1278 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* texto intro */
+.Intro{
+    line-height: 2;
+    font-weight: 1000;
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: greenyellow;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.parallax{
+    background-color: black;
+    /* background-image: url(../images/214580.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;    
+    margin-bottom: 50px; */
+}
+.parallaxAct{
+    background-color: yellowgreen;
+    /* background-image: url(../images/214580.jpg);
+    height: 600px;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;    
+    margin-bottom: 50px; */
+}
+
+.fuenteNuestrahistoria{
+    color: lightblue;
+    line-height: 2;
+    position: relative;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+}
+
+/* texto centralizado para títulos */
+.alineadoIndividual{
+    text-align: center;
+    font-size: 30px;
+    text-decoration: underline;
+    color: greenyellow;
+}
+
+.tablaHorarios{    
+    font-size: 12px;
+    color: greenyellow;
+    background-color: grey;
+    font-style: bold;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;    
+    border-top: outset 4px green;
+    border-right: outset 4px white;
+    border-bottom: outset 4px green;
+    border-left: outset 4px greenyellow;
+}
+
+/* formato formularios */
+.formulario{
+    background-color: black;
+    color: greenyellow;
+    line-height: 2;
+    position: relative;
+    left: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 30px;
+    text-decoration: underline;
+}
+
+.centradoProfesional{
+    text-align: center;
+    text-decoration: underline;
+    background-color: grey;
+    color: greenyellow;
+    list-style-type: none;
+    margin: 30px;
+}
+
+.submenuInvisible li{
+    display: block;
+}
+
+.encabezado__menu div:hover .submenuInvisible{
+    display: block;
+}
+
+.submenuInvisible2 li{
+    display: block;
+}
+
+.encabezado__menu div:hover .submenuInvisible2{
+    display: block;
+}
+    /* Flex de index inicio */
+    .flexIndex{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        color: greenyellow;
+        border: solid 3px lightblue;
+        background-color: rgb(63, 62, 62);
+        padding: 10px;
+        width: 480px;
+        height: 380px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 15px;
+        text-align: center;
+        }
+    /* Flex de index fin */
+    /* grid de index header */
+    .gridPrincipalHeader{
+        display: grid;
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 90px 50px;
+        grid-template-areas:
+        "TITULAR TITULAR TITULAR TITULAR TITULAR"
+        "Home Horarios Equipop Actividades Nuestrahistoria";
+        background-color: greenyellow;
+        }
+    .gridPrincipalHeader div{
+        background-image: url(../images/199f815fd1f5b96ba78a7629df1034f3.jpg);
+        color: yellowgreen;
+        line-height: 1;
+        border-top: outset 5px green;
+        border-right: outset 5px white;
+        border-bottom: outset 5px green;
+        border-left: outset 5px greenyellow;
+        }
+    .titularHeader{
+        grid-area: TITULAR;
+        color: greenyellow;
+        font-size: 60px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        text-decoration: overline;
+        text-align: center;
+        justify-content: center;
+        padding-top: 15px;
+        }
+    .homeHeader{
+        grid-area: Home;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 13px
+        }
+    .horariosHeader{
+        grid-area: Horarios;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 13px
+        }
+    .equipoHeader{
+        grid-area: Equipop;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 13px;
+        font-size: 14px;
+        }
+    .actividadesHeader{
+        grid-area: Actividades;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 13px
+        }
+    .nuestrahHeader{
+        grid-area: Nuestrahistoria;
+        text-align: center;
+        justify-content: center;
+        align-content: center;
+        padding: 10px
+        }
+    /* grid de index header fin */
+
+    /* grid de main inicio */
+    .gridPrincipalMain{
+        display: grid;
+        grid-template-columns: repeat(3, 33%);
+        grid-template-rows: 180px 450px 380px 40px 40px;
+        grid-template-areas:
+        "textointro textointro textointro"
+        "cajaA cajaB cajaC"
+        "mapa mapa mapa"
+        "enlace1 enlace1 enlace1"
+        "enlace2 enlace2 enlace2";
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 17px;
+        }
+    .introMain{
+        grid-area: textointro;
+        color: greenyellow;
+        text-align: center;
+        border-top: outset 5px green;
+        border-right: outset 5px white;
+        border-bottom: outset 5px green;
+        border-left: outset 5px greenyellow;
+        }
+    .cajaA{
+        grid-area: cajaA;
+        color: greenyellow;
+        text-align: center;
+        padding-top: 10px;
+        border-top: outset 5px green;
+        border-right: outset 5px white;
+        border-bottom: outset 5px green;
+        border-left: outset 5px greenyellow;
+        background-color: rgb(54, 51, 51);
+        }
+    .cajaB{
+        grid-area: cajaB;
+        color: greenyellow;
+        text-align: center;
+        padding-top: 10px;
+        border-top: outset 5px green;
+        border-right: outset 5px white;
+        border-bottom: outset 5px green;
+        border-left: outset 5px greenyellow;
+        background-color: rgb(54, 51, 51);
+        }
+    .cajaC{
+        grid-area: cajaC;
+        color: greenyellow;
+        text-align: center;
+        padding: 10px;
+        border-top: outset 5px green;
+        border-right: outset 5px white;
+        border-bottom: outset 5px green;
+        border-left: outset 5px greenyellow;
+        background-color: rgb(54, 51, 51);
+        }
+    .mapaMain{
+        grid-area: mapa;
+        padding: 8px;
+        display: flex;
+        justify-content: center;
+        }
+    .enlacesMain{
+        grid-area: enlace1;
+        padding: 8px;
+        }
+    .enlacesMain2{
+        grid-area: enlace2;
+        padding: 8px;
+        }
+    /* grid de main fin */
+
+    /* grid de tabla horarios inicio */
+    .gridTablaH{
+        display: grid;
+        grid-template-columns: repeat(10, 10%);
+        grid-template-rows: repeat(11, 9%);
+        grid-template-areas:
+        ". . . . . . . . . ."
+        "titular titular titular titular titular titular titular titular titular titular"
+        ". celda lunesh martesh miercolesh juevesh viernesh sabadoh domingoh ."
+        ". actividad1 hora1 hora2 hora3 hora4 hora5 hora6 hora7 ."
+        ". actividad2 hora8 hora9 hora10 hora11 hora12 hora13 hora14 ."
+        ". actividad3 hora15 hora16 hora17 hora18 hora19 hora20 hora21 ."
+        ". actividad4 hora22 hora23 hora24 hora25 hora26 hora27 hora28 ."
+        ". actividad5 hora29 hora30 hora31 hora32 hora33 hora34 hora35 ."
+        ". actividad6 hora36 hora37 hora38 hora39 hora40 hora41 hora42 ."
+        ". actividad7 hora43 hora44 hora45 hora46 hora47 hora48 hora49 ."
+        ". . . . . . . . . .";
+        justify-content: space-between;
+        align-items: center;
+        font-family: 'Se    goe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 15px;
+        color: antiquewhite;
+        border-top: outset 2px green;
+        border-right: outset 2px white;
+        border-bottom: outset 2px green;
+        border-left: outset 2px greenyellow;
+        }
+        .lunesH{
+            grid-area: lunesh;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .martesH{
+            grid-area: martesh;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .miercolesh{
+            grid-area: miercolesh;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .juevesh{
+            grid-area: juevesh;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .viernesh{
+            grid-area: viernesh;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .sabadoh{
+            grid-area: sabadoh;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .domingoh{
+            grid-area: domingoh;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .Spinning{
+            grid-area: actividad1;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .Yoga{
+            grid-area: actividad2;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .Pilates{
+            grid-area: actividad3;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .Crossfit{
+            grid-area: actividad4;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .HIIT{
+            grid-area: actividad5;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .Jumping{
+            grid-area: actividad6;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .Natacion{
+            grid-area: actividad7;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 4px green;
+            border-right: outset 4px white;
+            border-bottom: outset 4px green;
+            border-left: outset 4px greenyellow;
+        }
+        .titularH{
+            grid-area: titular;
+            text-align: center;
+            justify-content: center;
+            font-size: 40px;
+            text-decoration: underline;
+            color: greenyellow;
+            padding-bottom: 40px;
+        }
+        .hora1{
+            grid-area: hora1;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora2{
+            grid-area: hora2;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora3{
+            grid-area: hora3;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora4{
+            grid-area: hora4;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora5{
+            grid-area: hora5;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora6{
+            grid-area: hora6;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora7{
+            grid-area: hora7;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora8{
+            grid-area: hora8;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora9{
+            grid-area: hora9;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora10{
+            grid-area: hora10;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora11{
+            grid-area: hora11;
+            text-align: center;
+            justify-content: center; 
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora12{
+            grid-area: hora12;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora13{
+            grid-area: hora13;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora14{
+            grid-area: hora14;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora15{
+            grid-area: hora15;
+            text-align: center;
+            justify-content: center; 
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora16{
+            grid-area: hora16;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora17{
+            grid-area: hora17;
+            text-align: center;
+            justify-content: center; 
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora18{
+            grid-area: hora18;
+            text-align: center;
+            justify-content: center; 
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora19{
+            grid-area: hora19;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora20{
+            grid-area: hora20;
+            text-align: center;
+            justify-content: center;  
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora21{
+            grid-area: hora21;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora22{
+            grid-area: hora22;
+            text-align: center;
+            justify-content: center; 
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora23{
+            grid-area: hora23;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora24{
+            grid-area: hora24;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora25{
+            grid-area: hora25;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora26{
+            grid-area: hora26;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora27{
+            grid-area: hora27;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora28{
+            grid-area: hora28;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora29{
+            grid-area: hora29;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora30{
+            grid-area: hora30;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora31{
+            grid-area: hora31;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora32{
+            grid-area: hora32;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora33{
+            grid-area: hora33;
+            text-align: center;
+            justify-content: center; 
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora34{
+            grid-area: hora34;
+            text-align: center;
+            justify-content: center; 
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora35{
+            grid-area: hora35;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora36{
+            grid-area: hora36;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora37{
+            grid-area: hora37;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora38{
+            grid-area: hora38;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora39{
+            grid-area: hora39;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora40{
+            grid-area: hora40;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora41{
+            grid-area: hora41;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora42{
+            grid-area: hora42;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora43{
+            grid-area: hora43;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora44{
+            grid-area: hora44;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora45{
+            grid-area: hora45;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora46{
+            grid-area: hora46;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora47{
+            grid-area: hora47;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora48{
+            grid-area: hora48;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+        .hora49{
+            grid-area: hora49;
+            text-align: center;
+            justify-content: center;
+            border-top: outset 2px green;
+            border-right: outset 2px white;
+            border-bottom: outset 2px green;
+            border-left: outset 2px greenyellow;
+        }
+
+    /* grid de tabla horarios fin */
+
+    /* grid de footer inicio */
+    .gridPrincipalFooter{
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 40px 100px;
+        grid-template-areas:
+        "firma"
+        "spotify";
+        justify-content: center;
+        align-items: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+    .firmaFooter{
+        grid-area: firma;
+        color: greenyellow;
+        text-align: right;
+        }
+    .iframeSpotify{
+        grid-area: spotify;
+        color: greenyellow;
+        padding: 30px;
+        }
+    /* grid de footer fin */
+
+/* formato de enlaces */
+.formatoEnlaces a{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration: none;
+    color: greenyellow;
+    text-decoration: underline;
+}
+
+.encabezado__menu div li{
+    display: flex;
+    flex-direction: row;
+    line-height: 1.5;
+    border-top: outset 5px green;
+    border-right: outset 5px white;
+    border-bottom: outset 5px green;
+    border-left: outset 5px greenyellow;
+}
+
+.submenuInvisible2{
+    position:absolute;
+    background-color: black;
+    z-index: 999;
+    right: 770px;
+    top: 140px;
+    height:auto;
+    line-height: 1;
+    border-top: outset 5px green;
+    border-right: outset 5px white;
+    border-bottom: outset 5px green;
+    border-left: outset 5px greenyellow;
+    display: none;
+}
+
+.submenuInvisible{
+    position: absolute;
+    background-color: black;
+    z-index: 999;
+    right: 480px;
+    top: 140px;
+    height:auto;
+    line-height: 1;
+    border-top: outset 5px green;
+    border-right: outset 5px white;
+    border-bottom: outset 5px green;
+    border-left: outset 5px greenyellow;
+    display: none;
+}
+
+@media screen and (max-width: 767px){
+    .gridPrincipalHeader{
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 60px 50px;
+        grid-template-areas:
+        "TITULAR TITULAR TITULAR TITULAR TITULAR"
+        "Home Horarios Equipop Actividades Nuestrahistoria";
+    }
+    .titularHeader{
+        font-size: 30px;
+        padding-top: 12px;
+    }
+    .cajaA{
+        font-size: 12px;
+    }
+    .cajaB{
+        font-size: 11px;
+    }
+    .cajaC{
+        font-size: 11px;
+    }
+    .alineadoIndividual{
+        font-size: 25px;
+    }
+    .introMain{
+        margin-top: 80px;
+        font-size: 12px;
+    }
+    .encabezado__menu div:hover .submenuInvisible{
+        display: none;
+    }
+    .encabezado__menu div:hover .submenuInvisible2{
+        display: none;
+    }
+    .homeHeader{
+        font-size: 13px;
+    }
+    .horariosHeader{
+        font-size: 13px;
+    }
+    .equipoHeader{
+        font-size: 13px;
+        padding: 12px;
+    }
+    .actividadesHeader{
+        font-size: 13px;
+    }
+    .nuestrahHeader{
+        font-size: 13px;
+    }
+    .firmaFooter{
+        font-size: 11px;
+    }
+    .tablaHorarios{
+        font-size: 10px;
+    }
+    .textoNh{
+        font-size: 15px;
+    }
+    .fuenteNuestrahistoria{
+        font-size: 12px;
+    }
+    .sizeImagen{
+        height: 80px;
+    }
+    .gridTablaH{
+        font-size: 11px;
+    }
+    .titularH{
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width: 530px){
+    .gridPrincipalHeader{
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 60px 50px;
+    grid-template-areas:
+    "TITULAR TITULAR TITULAR TITULAR TITULAR"
+    "Home Horarios Equipop Actividades Nuestrahistoria";
+    font-size: 15px;
+    }
+    .titularHeader{
+    font-size: 20px;
+    padding-top: 20px;
+    }
+    .cajaA{
+    font-size: 10px;
+    }
+    .cajaB{
+    font-size: 10px;
+    }
+    .cajaC{
+    font-size: 10px;
+    }
+    .alineadoIndividual{
+    font-size: 15px;
+    }
+    .introMain{
+    margin-top: 60px;
+    }
+    .Intro{
+    font-size: 12px;
+    }
+    .encabezado__menu div:hover .submenuInvisible{
+    display: none;
+    }
+    .encabezado__menu div:hover .submenuInvisible2{
+    display: none;
+    }
+    .firmaFooter{
+        font-size: 9px;
+    }
+    .Intro{
+        font-size: 9px;
+    }
+    .homeHeader{
+        font-size: 11px;
+    }
+    .horariosHeader{
+        font-size: 11px;
+    }
+    .equipoHeader{
+        font-size: 11px;
+    }
+    .actividadesHeader{
+        font-size: 11px;
+    }
+    .nuestrahHeader{
+        font-size: 11px;
+    }
+    .textoNh{
+        font-size: 12px;
+    }
+    .sizeImagen{
+        height: 40px;
+    }
+    .gridTablaH{
+        font-size: 8px;
+    }
+    .titularH{
+        font-size: 20px;
+    }
+    .fuenteNuestrahistoria{
+        font-size: 10px;
+    }
+
+}
+.textoNh{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.firmaNh{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.flexActividades{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-start;
+    align-content: center;
+}
+.flexActividades__der{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: flex-end;
+    align-content: center;
+}
+.flexImg{
+    display: flex;
+    flex-direction: row;
+}
+.sizeImagen{
+    height: 100px;
+}
+.sinVineta{
+    list-style-type: none;
+    border-top: outset 4px green;
+    border-right: outset 4px white;
+    border-bottom: outset 4px green;
+    border-left: outset 4px greenyellow;
+}
+.gradienteIntro{
+    background-image: linear-gradient(to bottom, black, grey);
+}
+.gradienteAct{
+    background-image: linear-gradient(to bottom, black, green, yellowgreen);
+}
+.firmafooterGra{
+    color: black;
+    font-weight: 900;
+}
+.animacionCajas{
+    animation-name: aparecer;
+    animation-duration: 3s;
+    animation-delay: 2s;
+}
+@keyframes aparecer{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion{
+    animation-name: aparecertexto;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion2{
+    animation-name: aparecertexto2;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto2{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion3{
+    animation-name: aparecertexto3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto3{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion4{
+    animation-name: aparecertexto4;
+    animation-duration: 3s;
+    animation-delay: 8s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto4{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion5{
+    animation-name: aparecertexto5;
+    animation-duration: 3s;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto5{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+
