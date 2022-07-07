@@ -48,8 +48,18 @@
 /* texto centralizado para títulos */
 .alineadoIndividual{
     text-align: center;
-    font-size: 30px;
     text-decoration: underline;
+    color: greenyellow;
+}
+
+.fuentedeboots{
+    color: greenyellow;
+    border-top: outset 5px green;
+    border-right: outset 5px white;
+    border-bottom: outset 5px green;
+    border-left: outset 5px greenyellow;
+}
+.fuentedebootsenl{
     color: greenyellow;
 }
 
@@ -133,7 +143,6 @@
     .gridPrincipalHeader div{
         background-image: url(../images/199f815fd1f5b96ba78a7629df1034f3.jpg);
         color: yellowgreen;
-        line-height: 1;
         border-top: outset 5px green;
         border-right: outset 5px white;
         border-bottom: outset 5px green;
@@ -1133,6 +1142,9 @@
 }
 .gradienteAct{
     background-image: linear-gradient(to bottom, black, green, yellowgreen);
+}
+.fondocajas{
+    background-color: black;
 }
 .firmafooterGra{
     color: black;

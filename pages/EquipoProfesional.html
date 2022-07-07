@@ -10,22 +10,69 @@
     <link rel="stylesheet" href="../css/estilos.css">
 </head>
 <body class="parallax gradienteAct">
-    <header id="Arriba" class="gridPrincipalHeader formatoEnlaces encabezado__menu">
-        <div class="titularHeader">HLGym Fitness&Lifestyle</div>
+    <header id="Arriba">
+        <div class="h1 fw-bolder alineadoIndividual">HLGym Fitness&Lifestyle</div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="alert alert-success collapse navbar-collapse d-flex justify-content-center" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Horarios.html">Horarios</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="EquipoProfesional.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Equipo Profesional
+                    </a>
+                    <ul class="alert alert-success dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="EquipoProfesional.html">Yasmin Fuentes</a></li>
+                    <li><a class="dropdown-item" href="EquipoProfesional.html">Jorgelina Narvaez</a></li>
+                    <li><a class="dropdown-item" href="EquipoProfesional.html">Julieta Parra</a></li>
+                    <li><a class="dropdown-item" href="EquipoProfesional.html">Joaquin Federico Gonzalez</a></li>
+                    <li><a class="dropdown-item" href="EquipoProfesional.html">Lautaro Goncalvez</a></li>
+                    <li><a class="dropdown-item" href="EquipoProfesional.html">Dra. Emilia Lampatriegui</a></li>
+                    </ul>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="Actividades.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Actividades
+                    </a>
+                    <ul class="alert alert-success dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <li><a class="dropdown-item" href="Actividades.html">Spinning</a></li>
+                    <li><a class="dropdown-item" href="Actividades.html">Yoga</a></li>
+                    <li><a class="dropdown-item" href="Actividades.html">Pilates</a></li>
+                    <li><a class="dropdown-item" href="Actividades.html">Crossfit</a></li>
+                    <li><a class="dropdown-item" href="Actividades.html">HIIT</a></li>
+                    <li><a class="dropdown-item" href="Actividades.html">Jumping</a></li>
+                    <li><a class="dropdown-item" href="Actividades.html">Natación</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="NuestraHistoria.html">Nuestra Historia</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <!-- <div class="titularHeader">HLGym Fitness&Lifestyle</div>
         <div class="homeHeader"><a href="../index.html">Home</a></div>
         <div class="horariosHeader"><a href="Horarios.html">Horarios</a></div>
         <div class="equipoHeader"><a href="EquipoProfesional.html">Equipo Profesional</a>
-            <!-- <ul class="submenuInvisible2">
+            <ul class="submenuInvisible2">
                 <li><a href="EquipoProfesional.html">Yasmin Fuentes</a></li>
                 <li><a href="EquipoProfesional.html">Jorgelina Narvaez</a></li>
                 <li><a href="EquipoProfesional.html">Julieta Parra</a></li>
                 <li><a href="EquipoProfesional.html">Joaquin Federico Gonzalez</a></li>
                 <li><a href="EquipoProfesional.html">Lautaro Goncalvez</a></li>
                 <li><a href="EquipoProfesional.html">Dra. Emilia Lampatriegui</a></li>
-            </ul> -->
+            </ul>
         </div>
         <div class="actividadesHeader"><a href="Actividades.html">Actividades</a>
-            <!-- <ul class="submenuInvisible formatoEnlaces">
+            <ul class="submenuInvisible formatoEnlaces">
                 <li><a href="Actividades.html">Spinning</a></li>
                 <li><a href="Actividades.html">Yoga</a></li>
                 <li><a href="Actividades.html">Pilates</a></li>
@@ -33,15 +80,106 @@
                 <li><a href="Actividades.html">HIIT</a></li>
                 <li><a href="Actividades.html">Jumping</a></li>
                 <li><a href="Actividades.html">Natación</a></li>
-            </ul> -->
+            </ul>
         </div>
-        <div class="nuestrahHeader"><a href="NuestraHistoria.html">Nuestra historia</a></div>
+        <div class="nuestrahHeader"><a href="NuestraHistoria.html">Nuestra historia</a></div> -->
 </header>
 
     <main class="fuenteNuestrahistoria">
         <p><h3>Tenemos el agrado de contar con un equipo homogeneo para poder cumplimentar con las necesidades de todos nuestros clientes, aquí podes observar cada uno de ellos con una breve presentación!</h3></p>
 
-            <ul>
+        <div class="accordion" id="accordionExample">
+            <div class="parallax fuentedebootsenl accordion-item">
+              <h2 class="accordion-header" id="headingOne">
+                <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                    Yasmin Fuentes
+                </button>
+              </h2>
+              <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Yasmin es una atleta destacada en lo que ciclismo refiere, viene dedicandose la tendencia ciclista hace casi 10 años con varias carreras en podio en su historial competitivo.</p>
+                    <ol class="separacionSublista"><li>Actividad: <em>Spinning</em></li></ol>
+                </div>
+              </div>
+            </div>
+            <div class="parallax fuentedebootsenl accordion-item">
+              <h2 class="accordion-header" id="headingTwo">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                    Jorgelina Narvaez
+                </button>
+              </h2>
+              <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Jorgelina es una reciente adquisición a nuestro equipo de trabajo, pertenece a la A.A.Y.(Asociación Argentina de Yoga).</p>
+                    <ol class="separacionSublista">
+                        <li>Actividad: <em>Yoga</em></li>
+                        <li>Actividad: <em>Jumping</em></li>
+                    </ol>
+                </div>
+              </div>
+            </div>
+            <div class="parallax fuentedebootsenl accordion-item">
+              <h2 class="accordion-header" id="headingThree">
+                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                    Julieta Parra
+                </button>
+              </h2>
+              <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+                <div class="accordion-body">
+                    <p>Julieta se ha sumado a nuestro gimnasio con ideas innovadoras aplicadas a nuevas tendencias en modificación de maquinas utilizadas en el desarrollo de pilates.</p>
+                    <ol class="separacionSublista">
+                        <li>Actividad: <em>Pilates</em></li>
+                    </ol>
+                </div>
+              </div>
+            </div>
+            <div class="parallax fuentedebootsenl accordion-item">
+                <h2 class="accordion-header" id="headingFour">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                    Joaquin Federico Gonzalez
+                  </button>
+                </h2>
+                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Joaquin es la verdadera definición de trabajo. Para ya los experimentados en actividad física de alto rendimiento, participar en sus clases es un nuevo desafio a superar.</p>
+                    <ol class="separacionSublista"><li>Actividad: <em>Crossfit</em></li>
+                        <li>Actividad: <em>HIIT</em></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="parallax fuentedebootsenl accordion-item">
+                <h2 class="accordion-header" id="headingFive">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                    Lautaro Goncalvez
+                  </button>
+                </h2>
+                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Lautaro es el entrenador vigente del Instituto de natación y deportes, tiene una larga carrera deportiva en el campo e inclusive fue un representante olímpico.</p>
+                    <ol class="separacionSublista">
+                        <li>Actividad: <em>Natación</em></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+              <div class="parallax fuentedebootsenl accordion-item">
+                <h2 class="accordion-header" id="headingSix">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                    Dra. Emilia Lampatriegui
+                  </button>
+                </h2>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                  <div class="accordion-body">
+                    <p>Emilia se destaca por el detalle en los planes con cada uno de los asociados. Cada persona tiene un perfil sumamente diferente y debe ser abarcado con un individualismo muy certero.</p>
+                    <ol class="separacionSublista">
+                        <li>Actividad: <em>Nutricionista</em></li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+          </div>
+            <!-- <ul>
                 <div>   
                     <li class="centradoProfesional"><span><h4>Yasmin Fuentes</h4></span></li>
                         <p>Yasmin es una atleta destacada en lo que ciclismo refiere, viene dedicandose la tendencia ciclista hace casi 10 años con varias carreras en podio en su historial competitivo.</p>
@@ -79,7 +217,7 @@
                             <ol class="separacionSublista"><li>Actividad: <em>Nutricionista</em></li>
                             </ol>
                 </div>
-            </ul>
+            </ul> -->
                 <hr>
             <em><span><p class="formulario">Si tenes ganas de formar parte de nuestro equipo de trabajo, completa el siguiente formulario para que te tengamos en cuenta en futuras búsquedas, o podes adjuntarnos tu CV!</p></span></em>
 
@@ -126,19 +264,24 @@
             </select>
 
         </form>
-        <section class="enlacesMain formatoEnlaces">
-            <a href="#Arriba">Ir Arriba</a>
-            <a href="https://www.google.com/">Ir a Google</a>
-            <a href="../index.html">Ira página principal</a> 
-        </section>
+
     </main>
 
-    <footer class="gridPrincipalFooter">
-        <div class="firmaFooter">
-            <p class="footer firmafooterGra">HLGym-F&L - Copyright. Derechos reservados // Seguinos en nuestras redes! Instagram/Twitter/Linkedin</p>
+    <footer>
+        <div class="fondocajas card text-center">
+            <div class="card-body">
+              <p class="card-text firmaFooter">HLGym-F&L - Copyright. Derechos reservados // Seguinos en nuestras redes! Instagram/Twitter/Linkedin</p>
+              <a href="#Arriba" class="btn btn-primary">Ir Arriba!</a>
+              <a href="https://www.google.com/" class="btn btn-primary">Ir a Google!</a>
+            </div>
+            <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5cAwvaSXeNSrSbmrOUSBzo?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+            </div>
         </div>
-        <div class="iframeSpotify"><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5cAwvaSXeNSrSbmrOUSBzo?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        <!-- <div>
+            <p class="firmaFooter">HLGym-F&L - Copyright. Derechos reservados // Seguinos en nuestras redes! Instagram/Twitter/Linkedin</p>
         </div>
+        <div><iframe style="border-radius:12px" src="https://open.spotify.com/embed/playlist/5cAwvaSXeNSrSbmrOUSBzo?utm_source=generator" width="100%" height="80" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+        </div> -->
     </footer>
 
     <script src="../js/bootstrap.min.js"></script>
