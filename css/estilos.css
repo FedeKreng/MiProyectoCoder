@@ -49,18 +49,18 @@
 .alineadoIndividual{
     text-align: center;
     text-decoration: underline;
-    color: greenyellow;
+    color: lightblue;
 }
 
 .fuentedeboots{
-    color: greenyellow;
-    border-top: outset 5px green;
+    color: whitesmoke;
+    border-top: outset 5px black;
     border-right: outset 5px white;
-    border-bottom: outset 5px green;
-    border-left: outset 5px greenyellow;
+    border-bottom: outset 5px black;
+    border-left: outset 5px white;
 }
 .fuentedebootsenl{
-    color: greenyellow;
+    color: whitesmoke;
 }
 
 .tablaHorarios{    
@@ -214,12 +214,12 @@
         }
     .introMain{
         grid-area: textointro;
-        color: greenyellow;
+        color: whitesmoke;
         text-align: center;
-        border-top: outset 5px green;
-        border-right: outset 5px white;
-        border-bottom: outset 5px green;
-        border-left: outset 5px greenyellow;
+        border-top: outset 5px white;
+        border-right: outset 5px black;
+        border-bottom: outset 5px white;
+        border-left: outset 5px black;
         }
     .cajaA{
         grid-area: cajaA;
@@ -890,7 +890,7 @@
         }
     .firmaFooter{
         grid-area: firma;
-        color: greenyellow;
+        color: whitesmoke;
         text-align: right;
         }
     .iframeSpotify{
@@ -1141,7 +1141,7 @@
     background-image: linear-gradient(to bottom, black, grey);
 }
 .gradienteAct{
-    background-image: linear-gradient(to bottom, black, green, yellowgreen);
+    background-image: linear-gradient(to bottom, black, rgb(7, 7, 53), rgb(172, 208, 219));
 }
 .fondocajas{
     background-color: black;
