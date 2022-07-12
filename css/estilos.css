@@ -47,7 +47,7 @@
 
 /* texto centralizado para títulos */
 .alineadoIndividual{
-    text-align: center;
+    text-align: left;
     text-decoration: underline;
     color: lightblue;
 }
@@ -256,9 +256,10 @@
         }
     .mapaMain{
         grid-area: mapa;
-        padding: 8px;
         display: flex;
-        justify-content: center;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        align-content: stretch;
         }
     .enlacesMain{
         grid-area: enlace1;
@@ -1286,5 +1287,8 @@
     100%{
         opacity: 100%;
     }
+}
+.fondobordeAct{
+    background-color: black;
 }
 
