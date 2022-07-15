@@ -257,10 +257,18 @@
     .mapaMain{
         grid-area: mapa;
         display: flex;
-        justify-content: space-evenly;
-        align-items: flex-start;
+        justify-content: flex-end;
+        align-items: flex-end;
         align-content: stretch;
         }
+    .img1{
+        display: flex;
+        align-items: center;
+        }
+    .img2{
+        display: flex;
+        align-items: flex-start;
+        }            
     .enlacesMain{
         grid-area: enlace1;
         padding: 8px;

@@ -1,0 +1,186 @@
+@media screen and (max-width: 767px){
+    .gridPrincipalHeader{
+        grid-template-columns: repeat(5, 20%);
+        grid-template-rows: 60px 50px;
+        grid-template-areas:
+        "TITULAR TITULAR TITULAR TITULAR TITULAR"
+        "Home Horarios Equipop Actividades Nuestrahistoria";
+    }
+    .titularHeader{
+        font-size: 30px;
+        padding-top: 12px;
+    }
+    .cajaA{
+        font-size: 12px;
+    }
+    .cajaB{
+        font-size: 11px;
+    }
+    .cajaC{
+        font-size: 11px;
+    }
+    .alineadoIndividual{
+        font-size: 25px;
+    }
+    .introMain{
+        margin-top: 80px;
+        font-size: 12px;
+    }
+    .encabezado__menu div:hover .submenuInvisible{
+        display: none;
+    }
+    .encabezado__menu div:hover .submenuInvisible2{
+        display: none;
+    }
+    .homeHeader{
+        font-size: 13px;
+    }
+    .horariosHeader{
+        font-size: 13px;
+    }
+    .equipoHeader{
+        font-size: 13px;
+        padding: 12px;
+    }
+    .actividadesHeader{
+        font-size: 13px;
+    }
+    .nuestrahHeader{
+        font-size: 13px;
+    }
+    .firmaFooter{
+        font-size: 11px;
+    }
+    .tablaHorarios{
+        font-size: 10px;
+    }
+    .textoNh{
+        font-size: 15px;
+    }
+    .fuenteNuestrahistoria{
+        font-size: 12px;
+    }
+    .sizeImagen{
+        height: 80px;
+    }
+    .gridTablaH{
+        font-size: 11px;
+    }
+    .titularH{
+        font-size: 30px;
+    }
+
+}
+@media screen and (max-width: 530px){
+    .gridPrincipalHeader{
+    grid-template-columns: repeat(5, 20%);
+    grid-template-rows: 60px 50px;
+    grid-template-areas:
+    "TITULAR TITULAR TITULAR TITULAR TITULAR"
+    "Home Horarios Equipop Actividades Nuestrahistoria";
+    font-size: 15px;
+    }
+    .titularHeader{
+    font-size: 20px;
+    padding-top: 20px;
+    }
+    .cajaA{
+    font-size: 10px;
+    }
+    .cajaB{
+    font-size: 10px;
+    }
+    .cajaC{
+    font-size: 10px;
+    }
+    .alineadoIndividual{
+    font-size: 15px;
+    }
+    .introMain{
+    margin-top: 60px;
+    }
+    .Intro{
+    font-size: 12px;
+    }
+    .encabezado__menu div:hover .submenuInvisible{
+    display: none;
+    }
+    .encabezado__menu div:hover .submenuInvisible2{
+    display: none;
+    }
+    .firmaFooter{
+        font-size: 9px;
+    }
+    .Intro{
+        font-size: 9px;
+    }
+    .homeHeader{
+        font-size: 11px;
+    }
+    .horariosHeader{
+        font-size: 11px;
+    }
+    .equipoHeader{
+        font-size: 11px;
+    }
+    .actividadesHeader{
+        font-size: 11px;
+    }
+    .nuestrahHeader{
+        font-size: 11px;
+    }
+    .textoNh{
+        font-size: 12px;
+    }
+    .sizeImagen{
+        height: 40px;
+    }
+    .gridTablaH{
+        font-size: 8px;
+    }
+    .titularH{
+        font-size: 20px;
+    }
+    .fuenteNuestrahistoria{
+        font-size: 10px;
+    }
+}
+.alineadoIndividual{
+    text-align: left;
+    text-decoration: underline;
+    color: lightblue;
+}
+.introMain{
+    grid-area: textointro;
+    color: whitesmoke;
+    text-align: center;
+    border-top: outset 5px white;
+    border-right: outset 5px black;
+    border-bottom: outset 5px white;
+    border-left: outset 5px black;
+}
+.fondocajas{
+    background-color: black;
+}
+.fuentedeboots{
+    color: whitesmoke;
+    border-top: outset 5px black;
+    border-right: outset 5px white;
+    border-bottom: outset 5px black;
+    border-left: outset 5px white;
+}
+.mapaMain{
+    grid-area: mapa;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    align-content: stretch;
+    }
+.gradienteAct{
+    background-image: linear-gradient(to bottom, black, rgb(7, 7, 53), rgb(172, 208, 219));
+}
+.firmaFooter{
+    grid-area: firma;
+    color: whitesmoke;
+    text-align: right;
+}
