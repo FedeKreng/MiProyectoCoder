@@ -1152,9 +1152,6 @@
 .gradienteAct{
     background-image: linear-gradient(to bottom, black, rgb(7, 7, 53), rgb(172, 208, 219));
 }
-.fondocajas{
-    background-color: black;
-}
 .firmafooterGra{
     color: black;
     font-weight: 900;

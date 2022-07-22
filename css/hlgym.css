@@ -1,8 +1,4 @@
 @media screen and (max-width: 767px) {
-  .gridPrincipalHeader {
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 60px 50px;
-    grid-template-areas: "TITULAR TITULAR TITULAR TITULAR TITULAR" "Home Horarios Equipop Actividades Nuestrahistoria"; }
   .titularHeader {
     font-size: 30px;
     padding-top: 12px; }
@@ -45,14 +41,16 @@
   .gridTablaH {
     font-size: 11px; }
   .titularH {
-    font-size: 30px; } }
+    font-size: 30px; }
+  .fuentedeboots {
+    color: whitesmoke;
+    border-top: outset 5px black;
+    border-right: outset 5px white;
+    border-bottom: outset 5px black;
+    border-left: outset 5px white;
+    font-size: 10px; } }
 
 @media screen and (max-width: 530px) {
-  .gridPrincipalHeader {
-    grid-template-columns: repeat(5, 20%);
-    grid-template-rows: 60px 50px;
-    grid-template-areas: "TITULAR TITULAR TITULAR TITULAR TITULAR" "Home Horarios Equipop Actividades Nuestrahistoria";
-    font-size: 15px; }
   .titularHeader {
     font-size: 20px;
     padding-top: 20px; }
@@ -95,12 +93,20 @@
   .titularH {
     font-size: 20px; }
   .fuenteNuestrahistoria {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .fuentedeboots {
+    color: whitesmoke;
+    border-top: outset 5px black;
+    border-right: outset 5px white;
+    border-bottom: outset 5px black;
+    border-left: outset 5px white;
+    font-size: 9px; } }
 
 .alineadoIndividual {
   text-align: left;
   text-decoration: underline;
-  color: lightblue; }
+  color: lightblue;
+  padding-left: 50px; }
 
 .introMain {
   grid-area: textointro;
@@ -111,15 +117,13 @@
   border-bottom: outset 5px white;
   border-left: outset 5px black; }
 
-.fondocajas {
-  background-color: black; }
-
 .fuentedeboots {
   color: whitesmoke;
   border-top: outset 5px black;
   border-right: outset 5px white;
   border-bottom: outset 5px black;
-  border-left: outset 5px white; }
+  border-left: outset 5px white;
+  padding: 15px; }
 
 .mapaMain {
   grid-area: mapa;
@@ -128,10 +132,217 @@
   align-items: flex-end;
   align-content: stretch; }
 
-.gradienteAct {
-  background-image: linear-gradient(to bottom, black, #070735, #acd0db); }
-
 .firmaFooter {
   grid-area: firma;
   color: whitesmoke;
   text-align: right; }
+
+.caja-1 {
+  background-image: linear-gradient(to bottom, black, #070735, #acd0db);
+  background-color: linear-gradient(to bottom, black, #070735, #acd0db); }
+
+.caja-2 {
+  background-image: black;
+  background-color: black; }
+
+.caja-3 {
+  background-image: #1a1724;
+  background-color: #1a1724; }
+
+.caja-4 {
+  background-image: #120c2b;
+  background-color: #120c2b; }
+
+.fondofooterMapget {
+  background-image: linear-gradient(to bottom, black, #070735, #acd0db); }
+
+.gradienteIntro {
+  background-image: linear-gradient(to bottom, black, grey); }
+
+.parallax {
+  background-color: black; }
+
+.alineadoIndividual {
+  text-align: left;
+  text-decoration: underline;
+  color: lightblue; }
+
+.botonera, .botonera__irarriba, .botonera__iragoogle {
+  text-align: center;
+  color: lightblue;
+  background-color: #070735;
+  border-top: outset 3px grey;
+  border-right: outset 3px black;
+  border-bottom: outset 3px grey;
+  border-left: outset 3px black;
+  padding: 5px; }
+
+.botonera a, .botonera__irarriba a, .botonera__iragoogle a {
+  text-align: center;
+  text-decoration: none;
+  color: lightblue; }
+
+.botonera__irarriba {
+  background-color: black; }
+
+.botonera__iragoogle {
+  background-color: #08051a; }
+
+.flexCaja1 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center; }
+
+.flexCaja2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center; }
+
+.flexCaja3 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center; }
+
+.flexgeneralIndex {
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  align-content: center; }
+
+.fuentedebootsenl {
+  color: whitesmoke; }
+
+.fuenteNuestrahistoria {
+  color: lightblue;
+  line-height: 2;
+  position: relative;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px; }
+
+.formulario {
+  background-color: black;
+  color: greenyellow;
+  line-height: 2;
+  position: relative;
+  left: 10px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 30px;
+  text-decoration: underline; }
+
+.fondobordeAct {
+  background-color: black; }
+
+.fondobordeAct {
+  background-color: black; }
+
+.textoNh {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap; }
+
+.firmaNh {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center; }
+
+.animacionAparicion {
+  animation-name: aparecertexto;
+  animation-duration: 3s;
+  animation-delay: 2s;
+  animation-timing-function: linear; }
+
+@keyframes aparecertexto {
+  0% {
+    opacity: 0%; }
+  25% {
+    opacity: 25%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 75%; }
+  100% {
+    opacity: 100%; } }
+
+.animacionAparicion2 {
+  animation-name: aparecertexto2;
+  animation-duration: 3s;
+  animation-delay: 4s;
+  animation-timing-function: linear; }
+
+@keyframes aparecertexto2 {
+  0% {
+    opacity: 0%; }
+  25% {
+    opacity: 25%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 75%; }
+  100% {
+    opacity: 100%; } }
+
+.animacionAparicion3 {
+  animation-name: aparecertexto3;
+  animation-duration: 3s;
+  animation-delay: 6s;
+  animation-timing-function: linear; }
+
+@keyframes aparecertexto3 {
+  0% {
+    opacity: 0%; }
+  25% {
+    opacity: 25%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 75%; }
+  100% {
+    opacity: 100%; } }
+
+.animacionAparicion4 {
+  animation-name: aparecertexto4;
+  animation-duration: 3s;
+  animation-delay: 8s;
+  animation-timing-function: linear; }
+
+@keyframes aparecertexto4 {
+  0% {
+    opacity: 0%; }
+  25% {
+    opacity: 25%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 75%; }
+  100% {
+    opacity: 100%; } }
+
+.animacionAparicion5 {
+  animation-name: aparecertexto5;
+  animation-duration: 3s;
+  animation-delay: 10s;
+  animation-timing-function: linear; }
+
+@keyframes aparecertexto5 {
+  0% {
+    opacity: 0%; }
+  25% {
+    opacity: 25%; }
+  50% {
+    opacity: 50%; }
+  75% {
+    opacity: 75%; }
+  100% {
+    opacity: 100%; } }

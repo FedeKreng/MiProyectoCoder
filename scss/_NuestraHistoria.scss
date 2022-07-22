@@ -1,0 +1,126 @@
+.textoNh{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.firmaNh{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.animacionAparicion{
+    animation-name: aparecertexto;
+    animation-duration: 3s;
+    animation-delay: 2s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion2{
+    animation-name: aparecertexto2;
+    animation-duration: 3s;
+    animation-delay: 4s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto2{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion3{
+    animation-name: aparecertexto3;
+    animation-duration: 3s;
+    animation-delay: 6s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto3{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion4{
+    animation-name: aparecertexto4;
+    animation-duration: 3s;
+    animation-delay: 8s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto4{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
+.animacionAparicion5{
+    animation-name: aparecertexto5;
+    animation-duration: 3s;
+    animation-delay: 10s;
+    animation-timing-function: linear;
+}
+@keyframes aparecertexto5{
+    0%{
+        opacity: 0%;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity: 100%;
+    }
+}
