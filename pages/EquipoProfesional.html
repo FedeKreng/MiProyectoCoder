@@ -222,9 +222,20 @@
                 </div>
             </ul> -->
                 <hr>
-            <em><span><p class="formulario">Si tenes ganas de formar parte de nuestro equipo de trabajo, completa el siguiente formulario para que te tengamos en cuenta en futuras búsquedas, o podes adjuntarnos tu CV!</p></span></em>
+            <em><span><p class="formulario">Si tenes ganas de formar parte de nuestro equipo de trabajo, adjuntarnos tu CV!</p></span></em>
 
-        <form class="formulario">
+            <form>
+              <div class="mb-3">
+                <input class="form-control" type="file" id="formFile">
+              </div>
+              <div class="mb-3 form-check">
+                <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                <label class="form-check-label" for="exampleCheck1">Estas de acuerdo con el envío de tu información?</label>
+              </div>
+              <button type="submit" class="btn btn-primary">Enviar!</button>
+            </form>
+            
+        <!-- <form class="formulario">
             <label for="Nombre">Nombre: </label>
             <input type="text" placeholder="Ingrese su Nombre" name="Nombre">
 
@@ -265,8 +276,7 @@
                 <option value="ECU">Ecuador</option>
                 <option value="VEN">Venezuela</option>
             </select>
-
-        </form>
+        </form> -->
 
     </main>
 
