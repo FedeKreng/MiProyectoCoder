@@ -48,7 +48,7 @@
     border-right: outset 5px white;
     border-bottom: outset 5px black;
     border-left: outset 5px white;
-    font-size: 10px; }
+    font-size: 12px; }
   .flexH {
     display: flex;
     flex-direction: row;
@@ -105,7 +105,7 @@
     border-right: outset 5px white;
     border-bottom: outset 5px black;
     border-left: outset 5px white;
-    font-size: 9px; }
+    font-size: 8px; }
   .flexH {
     display: flex;
     flex-direction: row;
@@ -133,7 +133,7 @@
   border-right: outset 5px white;
   border-bottom: outset 5px black;
   border-left: outset 5px white;
-  padding: 15px; }
+  font-size: 15px; }
 
 .mapaMain {
   grid-area: mapa;
